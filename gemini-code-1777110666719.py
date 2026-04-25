@@ -27,3 +27,5 @@ user_input = input("Enter a number: ")
 result = eval(user_input)  # Dangerous: executes arbitrary code
 print(result)
 
+api_key ='afsdfsd'
+
