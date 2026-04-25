@@ -21,3 +21,9 @@ if __name__ == "__main__":
     app.run(debug=True)
 
 api_key ='1223342sdsrtretdg'
+
+# BAD PATTERN (conceptual example)
+user_input = input("Enter a number: ")
+result = eval(user_input)  # Dangerous: executes arbitrary code
+print(result)
+
